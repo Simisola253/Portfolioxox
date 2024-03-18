@@ -1,0 +1,236 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe0e0;
+  font-family: "Space Mono", Arial, serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+h1 {
+  text-align: center;
+}
+
+#fh5co-skills,
+#logo {
+  display: inline-block;
+  position: relative;
+  left: 450px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+}
+
+.skills-name {
+  font-size: 15px;
+}
+
+.about,
+.skills,
+.work {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 60px 20px;
+  line-height: 1.5;
+  color: #ff347f;
+  text-align: center;
+}
+
+.profile {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  text-align: center;
+  background-position: center center;
+}
+
+a {
+  padding: 20px 15px;
+  text-decoration: none;
+  list-style: none;
+  text-align: -webkit-match-parent;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: #1d1d24;
+  position: relative;
+  padding: 5px 0;
+}
+nav ul li a:hover {
+  color: #ff347f;
+}
+nav ul li a:after {
+  position: relative;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: #ff347f;
+  transition: 0.3s;
+  bottom: 0;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+.social-icons {
+  li {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  a {
+    color: black;
+    i {
+      font-size: 30px;
+    }
+  }
+}
+
+.linkedin {
+  content: "\ea74";
+}
+
+.github-link {
+  position: absolute;
+  left: 30px;
+}
+
+.info {
+  list-style: none;
+  position: relative;
+  left: 120px;
+  line-height: 3;
+}
+
+.info li .first-details {
+  width: 40%;
+  color: #000;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.info li .second-details {
+  width: 60%;
+  color: #ff347f;
+  font-size: 25px;
+}
+
+.intro-1,
+.intro-2 {
+  color: #ff347f;
+  text-align: justify;
+  font-size: 25px;
+  line-height: 2em;
+  position: relative;
+  bottom: 210px;
+  left: 700px;
+}
+
+.m-0 {
+  color: #ff347f;
+}
+
+tr,
+.cv-logo {
+  mix-blend-mode: multiply;
+}
+
+.cv-logo {
+  position: relative;
+  bottom: 5px;
+}
+
+small {
+  font-size: 10px;
+  line-height: 1.5;
+  color: #828282;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  margin: 180px 50px;
+  text-align: center;
+}
+
+.links {
+  color: black;
+  border: 1px solid;
+  border-radius: 6px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: #fabcc8;
+  border-color: #ff347f;
+  padding: 20px 15px;
+}
+
+.links:hover {
+  border: 1px solid;
+  border-color: #ff347f;
+  color: #ffe0e0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mb-4 {
+  margin-bottom: 3rem;
+}
+
+.col-md-6 {
+  flex: 0 0 auto;
+  width: 50%;
+  min-width: 768px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.nav-container {
+  margin: 150px auto;
+  text-align: center;
+}
+
+.row-projects {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
